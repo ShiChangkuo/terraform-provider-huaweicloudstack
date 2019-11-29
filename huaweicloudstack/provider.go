@@ -166,6 +166,7 @@ func Provider() terraform.ResourceProvider {
 			"huaweicloudstack_compute_servergroup_v2":             resourceComputeServerGroupV2(),
 			"huaweicloudstack_compute_floatingip_associate_v2":    resourceComputeFloatingIPAssociateV2(),
 			"huaweicloudstack_compute_volume_attach_v2":           resourceComputeVolumeAttachV2(),
+			"huaweicloudstack_images_image_v2":                    resourceImagesImageV2(),
 			"huaweicloudstack_networking_network_v2":              resourceNetworkingNetworkV2(),
 			"huaweicloudstack_networking_subnet_v2":               resourceNetworkingSubnetV2(),
 			"huaweicloudstack_networking_floatingip_v2":           resourceNetworkingFloatingIPV2(),
